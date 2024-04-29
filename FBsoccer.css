@@ -1,0 +1,87 @@
+Body {
+    background-color: white;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.InicioSoccerAct {
+    height: 560px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TextoSoccerAct {
+    text-align: left;
+    color: black;
+    font-size: 23px;
+    max-width: 750px;
+}
+
+.HorarioActSoccer {
+    height: 560px;
+    width: 100%;
+    background-color: #11161E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan en múltiples líneas */
+}
+h2 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+    margin-bottom: -20px; /* Margen inferior negativo para compensar el margen superior de las tarjetas */
+}
+
+.tarjeta {
+    margin-top: -100px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: 270px;
+    width: 270px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 560px; /* Altura del slider */
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease; /* Transición de 1 segundo */
+}
+
+.slider img.active {
+    opacity: 1;
+}
+
+.ContactoActividadSoccer {
+    height: 560px;
+    width: 100%;
+    background-color: #11161E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

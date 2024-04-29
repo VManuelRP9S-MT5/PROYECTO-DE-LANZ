@@ -1,0 +1,424 @@
+body {  /*Esta parte es todo el cuerpo de la pagina*/
+    background-color: #0E0E0E;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+   /* padding: 100px;*/
+  }
+/* Estilos previamente definidos */
+
+html {
+  scroll-behavior: smooth; /* Desplazamiento suave */
+}
+
+.navBar {
+  position: fixed; /* Fijar la barra de navegación en la parte superior */
+  top: 0; /* Alinear la barra de navegación en la parte superior */
+  left: 0; /* Alinear la barra de navegación en la parte izquierda */
+  width: 100%; /* Hacer que la barra de navegación ocupe todo el ancho de la ventana */
+  background-color: #0E0E0E; /* Cambia el color de fondo según tu diseño */
+  padding: 10px 0; /* Ajusta el espacio entre la barra de navegación y el contenido */
+  z-index: 1000; /* Asegurar que la barra de navegación esté por encima de otros elementos */
+}
+
+/* Estilos adicionales previamente definidos */
+
+
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navBar ul li {
+    margin: 0 10px; /* Ajusta el espacio entre los elementos de la barra de navegación */
+}
+
+.navBar ul li a {
+    color: white; /* Cambia el color del texto según tu diseño */
+    text-decoration: none;
+    font-size: 18px; /* Ajusta el tamaño del texto según tu diseño */
+}
+
+.navBar ul li a:hover {
+    color: #ccc; /* Cambia el color del texto al pasar el cursor sobre los enlaces */
+}
+
+.TItulosBienvenida {
+  display: flex;
+    justify-content: center;
+    align-items: center; /* Centrar verticalmente */
+    background-color: white;
+    height: 690px;
+}
+
+.BienvenidaTXT {
+  flex: 1;
+    text-align: center;
+    color: black;
+    font-size: 23px;
+    max-width: 700px;
+    padding: 20px; /* Relleno alrededor del texto */
+    animation: aparecer 1.5s ease-in-out forwards; /* Nombre de la animación, duración, temporización y dirección */
+    opacity: 0; /* Inicialmente el texto estará oculto */
+    margin-left: 200px;
+}
+.ImagenPresenta {
+  max-width: 300px; /* Ancho máximo de la imagen */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Presentacion01{
+  max-width: 450px; /* Ancho máximo de la imagen */
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+
+
+
+
+
+
+
+
+
+.titulo {
+    color: white;
+    font-size: 36px;
+    font-family: Arial;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto); /* 3 columnas con ancho automático */
+    justify-content: center; /* Centra horizontalmente */
+    gap: 20px; /* Espacio entre las columnas */
+    background-color: #0E0E0E;
+    padding: 20px; /* Espacio alrededor del grid */
+  }
+  
+  .container > div {
+    position: relative; /* Para que el contenido dentro de div sea posicionado relativo a este div */
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+  
+  .FondoIMG {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 100%; /* Ocupa todo el alto del contenedor */
+    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+    position: absolute; /* Posiciona la imagen absolutamente dentro de su contenedor */
+    top: 0; /* La imagen se coloca en la parte superior del contenedor */
+    border-radius: 25px;
+    left: 0; /* La imagen se coloca en la parte izquierda del contenedor */
+  }
+  .container h3 {
+    position: absolute; /* Posiciona el texto absolutamente dentro de su contenedor */
+    top: 40%; /* Lo coloca un poco más arriba del centro vertical */
+    left: 50%; /* Lo coloca en la mitad horizontal del contenedor */
+    transform: translate(-50%, -50%); /* Centra el texto tanto vertical como horizontalmente */
+    color: white; /* Color del texto */
+    z-index: 1; /* Asegura que el texto esté encima de la imagen */
+  }
+
+
+
+  .containerv1 > div {
+    position: relative; /* Para que el contenido dentro de div sea posicionado relativo a este div */
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+  .containerv1 h3 {
+    position: absolute; /* Posiciona el texto absolutamente dentro de su contenedor */
+    top: 40%; /* Lo coloca un poco más arriba del centro vertical */
+    left: 50%; /* Lo coloca en la mitad horizontal del contenedor */
+    transform: translate(-50%, -50%); /* Centra el texto tanto vertical como horizontalmente */
+    color: white; /* Color del texto */
+    z-index: 1; /* Asegura que el texto esté encima de la imagen */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containerv1 {
+    display: grid;
+    grid-template-columns: repeat(3, auto); /* 3 columnas con ancho automático */
+    justify-content: center; /* Centra horizontalmente */
+    gap: 20px; /* Espacio entre las columnas */
+    background-color: #0E0E0E;
+    padding: 20px; /* Espacio alrededor del grid */
+  }
+
+  .Soccer,
+  .Basket,
+  .FutDeSalon,
+  .Boxeo,
+  .badminton
+  .Atletismo,
+  .Béisboll
+  .Handball,
+  .Voleiboll {
+    text-align: center; /* Alinea el texto al centro horizontal */
+    height: auto;
+    width: 615px;
+    color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.385);
+  }
+  .Soccer,
+  .Basket,
+  .FutDeSalon,
+  .Boxeo,
+  .badminton,
+  .Atletismo,
+  .Béisboll,
+  .Handball,
+  .Voleiboll {
+    aspect-ratio: 2/1; /* Relación de aspecto para mantener la proporción */
+    display: flex; /* Activa el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    font-family: serif; /* Fuente serif */
+    font-size: 27px; /* Tamaño de texto */
+    color: white; /* Color de texto */
+    border-radius: 20px; /* Bordes redondeados */
+    background-color: #11161E; /* Color de fondo */}
+
+
+  
+  /* Estilos para cada actividad */
+  .DanzaR,
+  .DanzaM,
+  .Musica,
+  .Ajedrez,
+  .Actuacion {
+    text-align: center; /* Alinea el texto al centro horizontal */
+    height: auto;
+    width: 615px;
+    color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.385);
+  }
+  
+.TItulosEinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centrar verticalmente */
+    background-color: white;
+    height: 690px;
+  }
+  
+  .texto {
+    flex: 1;
+    text-align: left;
+    color: black;
+    font-size: 23px;
+    max-width: 700px;
+    padding: 20px; /* Relleno alrededor del texto */
+    animation: aparecer 1.5s ease-in-out forwards; /* Nombre de la animación, duración, temporización y dirección */
+    opacity: 0; /* Inicialmente el texto estará oculto */
+  }
+  
+  @keyframes aparecer {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  .imagen {
+    max-width: 500px; /* Ancho máximo de la imagen */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .TItulosEinfoCultural {
+    height: 690px;
+    display: flex;
+    justify-content: center; /* Distribuir el espacio entre los elementos */
+    align-items: center; /* Centrar verticalmente */
+    background-color: white;
+  }
+  
+  .Cultural1 {
+    width: 420px; /* Ancho máximo de la imagen */
+    height: 350px; /* Altura ajustada automáticamente */
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 44px;
+  }
+  
+  .Textocultural {
+    flex: 1; /* Ocupar el espacio disponible */
+    text-align: left; /* Alinear el texto al centro horizontal */
+    color: black;
+    margin-left: 90px;
+    font-size: 23px; /* Tamaño de fuente */
+    max-width: 700px;
+    animation: aparecerCultural 3s ease-in-out forwards; /* Aumentamos la duración a 2 segundos */
+    opacity: 0; /* Inicialmente el texto estará oculto */
+  }
+  
+  @keyframes aparecerCultural {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  .DanzaR, .DanzaM, .Musica, .Ajedrez, .Actuacion {
+    aspect-ratio: 2/1; /* Relación de aspecto para mantener la proporción */
+    display: flex; /* Activa el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    font-family: serif; /* Fuente serif */
+    font-size: 27px; /* Tamaño de texto */
+    color: white; /* Color de texto */
+    border-radius: 20px; /* Bordes redondeados */
+    background-color: #11161E; /* Color de fondo */
+}
+
+.TItuloseinfoBandaGuerra {
+    height: 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .TextoBandaGuerra {
+    flex: 1;
+    text-align: left;
+    color: black;
+    font-size: 23px;
+    max-width: 600px;
+    animation: aparecerBandaGuerra 5s ease-in-out forwards; /* Nombre de la animación, duración, temporización y dirección */
+    opacity: 0; /* Inicialmente el texto estará oculto */
+  }
+  
+  @keyframes aparecerBandaGuerra {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  .BandaImagen {
+    width: 500px;
+    height: 350px;
+    border-radius: 25px;
+    margin-left: 44px; /* Ajusta el margen entre el texto y la imagen */
+  }
+
+  
+ 
+
+  /* Estilos para actividades deportivas */
+.Soccer:hover img,
+.Basket:hover img,
+.FutDeSalon:hover img,
+.Boxeo:hover img,
+.badminton:hover img,
+.Atletismo:hover img,
+.Béisboll:hover img,
+.Handball:hover img,
+.Voleiboll:hover img {
+  filter: opacity(0.4); /* Reduce la opacidad de la imagen al pasar el cursor sobre ella */
+}
+
+/* Estilos para actividades culturales */
+.DanzaR:hover img,
+.DanzaM:hover img,
+.Musica:hover img,
+.Ajedrez:hover img,
+.Actuacion:hover img {
+  filter: opacity(0.4); /* Reduce la opacidad de la imagen al pasar el cursor sobre ella */
+}
+
+/* Aplicar transición suave a la propiedad filter */
+.Soccer img,
+.Basket img,
+.FutDeSalon img,
+.Boxeo img,
+.badminton img,
+.Atletismo img,
+.Béisboll img,
+.Handball img,
+.Voleiboll img,
+.DanzaR img,
+.DanzaM img,
+.Musica img,
+.Ajedrez img,
+.Actuacion img {
+  transition: filter 0.3s ease; /* Agrega una transición suave a la propiedad de filter */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Parte de victor, Control del slider */
+
+.swiper-container {
+    width: 100%; /* Ancho del contenedor del slider */
+    height: 690px; /* Altura del contenedor del slider */
+}
+
+.swiper-slide img {
+    width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: 100%; /* Ajusta la imagen a la altura del contenedor */
+    object-fit: cover; /* Escala la imagen para cubrir el contenedor manteniendo la relación de aspecto */
+}
